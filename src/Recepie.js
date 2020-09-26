@@ -9,7 +9,7 @@ export default function Recepie ({title , image , calories,ingredients}) {
             <p> calories : {calories}</p>
             <ol>
                 {ingredients.map(ingredient => (
-                    <li>
+                    <li key={title}>
                         {ingredient.text}
                     </li>
                 ))}
