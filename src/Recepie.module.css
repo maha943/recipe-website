@@ -1,0 +1,17 @@
+.recepie{
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgb(71,71 ,71);
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 40%;
+    background-color: white;
+    width:70%;
+}
+.image{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+}
